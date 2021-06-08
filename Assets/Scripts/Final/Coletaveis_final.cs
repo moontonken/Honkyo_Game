@@ -10,8 +10,8 @@ using UnityEngine.SceneManagement;
 public class Coletaveis_final : MonoBehaviour
 {
     [SerializeField] 
-    float tempoVitoria = 5;
-    private bool contarTempo = true;
+    float tempoVitoria = 0f;
+    private bool contarTempo = false;
 
     private Animator coletaveis;
 
@@ -36,20 +36,20 @@ public class Coletaveis_final : MonoBehaviour
             Debug.Log("animar");
             coletaveis.SetBool("playAnimacao", true);
 
+            contarTempo = true;
+        }
             if (contarTempo)
             {
-                if (tempoVitoria > 0)
-                {
-                    tempoVitoria -= Time.deltaTime;
-                }
-                else
-                {
-                    tempoVitoria = 0;
+                tempoVitoria = tempoVitoria + Time.deltaTime;
+                if ( tempoVitoria >=5f)
+                    {
                     contarTempo = false;
                     SceneManager.LoadScene("Victory");
+
                 }
+                
             }
-        }
+        
         
     }
 
