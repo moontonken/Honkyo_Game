@@ -30,15 +30,19 @@ public class e : MonoBehaviour
         if (pause == true) 
         {
             if (Input.GetKeyDown(KeyCode.M))
-
+            {
                 SceneManager.LoadScene("Menu Inicial");
+            }
 
             if (Input.GetKeyDown(KeyCode.E))
+            {
                 Application.Quit();
+            }
 
             if (Input.GetKeyDown(KeyCode.H))
-
+            {
                 SceneManager.LoadScene("Help");
+            }  
 
             if (Input.GetKeyDown(KeyCode.R))
             {
