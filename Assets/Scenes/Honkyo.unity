@@ -8759,7 +8759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55c13d7f0c385c54faa1e9838270edde, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  panel: {fileID: 0}
+  panel: {fileID: 820221455}
 --- !u!43 &1825971659
 Mesh:
   m_ObjectHideFlags: 0
