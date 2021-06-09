@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-112.91815185546875,"y":10.904434204101563,"z":-48.42699432373047},"rotation":{"x":-0.027636712417006494,"y":0.9027178287506104,"z":-0.058574628084897998,"w":-0.4254010021686554},"size":5.5874199867248539,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"showFog":true,"showMaterialUpdate":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true},"in2DMode":false,"pivot":{"x":-110.70001220703125,"y":13.200006484985352,"z":-48.15999984741211},"rotation":{"x":0.07493690401315689,"y":0.7124658226966858,"z":0.07705474644899368,"w":-0.6934688091278076},"size":6.533570289611816,"orthographic":false}
+>>>>>>> parent of d26a8184 (Mariana Ribeiro)
