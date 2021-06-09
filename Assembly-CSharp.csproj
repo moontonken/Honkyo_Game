@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CamaraControl.cs" />
+    <Compile Include="Assets\Scripts\Cartela.cs" />
     <Compile Include="Assets\Scripts\Final\Coletaveis_final.cs" />
     <Compile Include="Assets\Scripts\Final\Jogador_Final.cs" />
     <Compile Include="Assets\Scripts\Inimigo.cs" />
