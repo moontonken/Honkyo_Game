@@ -76,7 +76,6 @@
     <Compile Include="Assets\Scripts\Som\Obstaculo.cs" />
     <Compile Include="Assets\Scripts\Som\Som_Coletar.cs" />
     <Compile Include="Assets\Scripts\coletaveis\coracao_coletavel.cs" />
-    <Compile Include="Assets\Scripts\coletaveis\maca_coletavel.cs" />
     <Compile Include="Assets\Scripts\coletaveis\pomba_coletavel.cs" />
     <Compile Include="Assets\Scripts\menus\Creditos.cs" />
     <Compile Include="Assets\Scripts\menus\Exit.cs" />
