@@ -11876,7 +11876,7 @@ PrefabInstance:
     - target: {fileID: 5261804209006260524, guid: bc2e2070fddf1cf43b2cc30e87456c56,
         type: 3}
       propertyPath: sensibilidadeRato
-      value: 100
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 5261804209006260526, guid: bc2e2070fddf1cf43b2cc30e87456c56,
         type: 3}
