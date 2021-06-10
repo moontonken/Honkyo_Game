@@ -80,6 +80,7 @@
     <Compile Include="Assets\Scripts\menus\Creditos.cs" />
     <Compile Include="Assets\Scripts\menus\Exit.cs" />
     <Compile Include="Assets\Scripts\menus\GameOver.cs" />
+    <Compile Include="Assets\Scripts\menus\Help.cs" />
     <Compile Include="Assets\Scripts\menus\Menu.cs" />
     <Compile Include="Assets\Scripts\menus\MenuFixo.cs" />
     <Compile Include="Assets\Scripts\menus\Play.cs" />
