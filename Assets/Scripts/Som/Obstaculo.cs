@@ -20,7 +20,12 @@ public class Obstaculo : MonoBehaviour
 
         // Musica começa a tocar quando nos aproximamos do obstaculo
     {
-      if (other.CompareTag("SoundTrigger"))
+        if (other.CompareTag("SoundTrigger"))
+        {
+            other.GetComponent<AudioSource>().Play();
+        }
+
+        if (other.CompareTag("Sound_Inimigo"))
         {
             other.GetComponent<AudioSource>().Play();
         }
@@ -29,6 +34,11 @@ public class Obstaculo : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("SoundTrigger"))
+        {
+            other.GetComponent<AudioSource>().Stop();
+        }
+
+        if (other.CompareTag("Sound_Inimigo"))
         {
             other.GetComponent<AudioSource>().Stop();
         }

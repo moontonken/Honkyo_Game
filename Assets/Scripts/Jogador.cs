@@ -10,7 +10,6 @@ public class Jogador : MonoBehaviour
     AudioSource somcoletavel;
     [SerializeField]
     AudioSource sombomba;
-   
 
 
     CharacterController controlador;
