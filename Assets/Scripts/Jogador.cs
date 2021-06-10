@@ -10,8 +10,6 @@ public class Jogador : MonoBehaviour
     AudioSource somcoletavel;
     [SerializeField]
     AudioSource sombomba;
-    [SerializeField]
-    AudioSource somInimigo;
    
 
 
@@ -113,7 +111,6 @@ public class Jogador : MonoBehaviour
 
         if (other.tag == ("Inimigo"))
         {
-            somInimigo.gameObject.GetComponent<AudioSource>().Play();
             SceneManager.LoadScene("Game Over");
         }
 
