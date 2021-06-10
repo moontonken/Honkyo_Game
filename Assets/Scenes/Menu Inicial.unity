@@ -1654,7 +1654,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: credits(c)
+  m_text: credits (c)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d77612e8a2e5ecb4eb7ad8a84508064f, type: 2}
   m_sharedMaterial: {fileID: -7605071969730083636, guid: d77612e8a2e5ecb4eb7ad8a84508064f,
@@ -1862,7 +1862,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: exit(e)
+  m_text: exit game (e)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: d77612e8a2e5ecb4eb7ad8a84508064f, type: 2}
   m_sharedMaterial: {fileID: -7605071969730083636, guid: d77612e8a2e5ecb4eb7ad8a84508064f,
